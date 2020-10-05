@@ -1,0 +1,15 @@
+$greenBtn: #2aab4f;
+$greenText: #2aab4f;
+$darkGreenText: #254b2f;
+$lightGreenBg: #dcfeec;
+$lightGreenText: #dcfeec;
+$normalLightGreenBg: #abecce;
+
+
+nav a{
+
+}
+nav a:hover, nav a:active{
+  background-color: $greenBtn;
+  color: #fff;
+}

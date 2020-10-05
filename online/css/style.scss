@@ -1,0 +1,84 @@
+$primary-background: #efefef;
+$primary-text: #484848;
+$primary-text-light: #a0a0a0;
+$primary-btn: #33f6a0;
+$primary-btn-hover: #59e5a6;
+$primary-color: #33f6a0;
+
+body{
+   padding: 0 25px;
+}
+.header{
+   background-color: $primary-background;
+   padding: 2% 0;
+   margin-bottom: 5%;
+}
+.header h4{
+   font-size: 16px;
+}
+.header p{
+   font-size: 13px;
+}
+.message-img{
+   width: 5%;
+}
+.primary-text{
+   color: $primary-text;
+}
+.primary-text-light{
+   color: $primary-text-light;
+}
+nav{
+   border-top: 0.5px solid #c6c6c6;
+   border-bottom: 0.5px solid #c6c6c6;
+}
+.nav.navbar-dark.fixed-bottom{
+   bottom: 20px;
+   background-color: #FFF;
+}
+.nav-item{
+   color: $primary-text-light;
+   width: 25%;
+   padding: 6px ;
+   text-align: center;
+}
+.nav-item span{
+   color: $primary-text-light;
+}
+
+.nav-item a.nav-link{
+   color: $primary-text-light !important;
+}
+.nav-item a.nav-link:hover span,
+.nav-item a.nav-link:hover{
+   color: $primary-color !important;
+}
+input{ padding: 0; }
+input:focus, input:active{ padding: 0; border: 0;}
+.input-bottom-line{ border: 0px; border-bottom: 0.5px solid #c6c6c6;  }
+.border-radius-0{border-radius: 0;}
+.form-control:focus {
+   border-color: #fff ;
+   border-bottom: 0.5px solid #c6c6c6;
+   box-shadow: 0 0 0 0.2rem #fff;
+}
+.otp-btn{
+   background-color: $primary-btn;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+}
+.otp-btn:hover{
+   background-color: $primary-btn-hover;
+   color: #fff;
+}
+
+
+.nav-link .badge {
+   position: absolute;
+   border-radius: 50%;
+   //top: -7px;
+   //right: -5px;
+   padding: 3px 6px;
+   opacity: 0.95;
+}
